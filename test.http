@@ -1,0 +1,8 @@
+### Create a product using voice text
+POST http://127.0.0.1:5001/hasiru-sante/us-central1/createProductFromVoiceText
+Content-Type: application/json
+
+{
+  "text": "ಟೊಮೆಟೊ 10 ಕೆಜಿ 25 ರೂಪಾಯಿ",
+  "farmerId": "testuser123"
+}
